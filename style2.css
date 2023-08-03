@@ -11,7 +11,9 @@
     
 }
 
-.header{
+/*         LEFT- MAIN        */
+
+.left-main{
     flex:1;
     background-color: black;
     overflow: hidden;
@@ -30,7 +32,7 @@
     
 }
 .p-list{
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 #albumart-playlist {
@@ -42,10 +44,14 @@
   
 }
 
+ /*         RIGHT - MAIN        */
+
 .right-main{
     flex: 4;
     
 }
+
+/*         RIGHT - SECTION - 1        */
 
 .pop-section{
     background: linear-gradient(180deg, #90AEA7 0%, #000 120%);
@@ -64,7 +70,7 @@
 }
 
 
-
+/*         RIGHT - SECTION - 2        */
 
 
 .play-section{
@@ -80,27 +86,14 @@ padding: 1rem;
     width: 8.6rem;
     margin-left:50px
 }
+  
+/*         RIGHT - SECTION - 3         */
 
-.song-image{
-    display: flex;
-     align-content: center;
-     flex-direction: row;
-}
-.abc{
-  display:flex;
-  
-  justify-content: space-between;
-  
+.songs-list{
+  margin-left:260px;
 }
 
-
-
-
-
-
-
-
-
+/*         FOOTER        */
 
 .bottom{
     padding: 40px 10px;
@@ -114,6 +107,9 @@ padding: 1rem;
     bottom:0px;
    
   }
+
+
+  /*        FOOTER-LEFT        */
 .songName{
     display: flex;
     align-items: center;
@@ -133,33 +129,15 @@ padding: 1rem;
     color: whitesmoke;
   }
 
-  .songs-list{
-    margin-left:260px;
-    
-  }
+ /*        FOOTER-MIDDLE        */
 
-  .small-gap{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .song-description{
-    display: flex;
-    
-    justify-content:flex-start;
-  }
-  
- 
- 
-  /* <!-- ===========Bottom Middle============= */
   .playControls{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     
   }
-  .playControls>.control{
+  .control{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,22 +156,18 @@ padding: 1rem;
   }
   .music-bar{
     width: 400px;
-    
   }
 
   .bar-height{
     margin-bottom:20px;
   }
-  .musichov{
-   mix-blend-mode: screen;
-   transition: all 0.2s ease-in;
-  }
+  
   .musichov:hover{
    box-shadow: 1px 1px 20px gray;
    cursor: pointer;
   }
  
-  /* <!-- ===========Bottom Right============= */
+  /*        FOOTER-RIGHT        */
   .volume{
     display: flex;
     align-items: center;
