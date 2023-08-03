@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding:0px;
+    color: white;
+}
+
+.main{
+    display:flex;
+    height:90vh;
+    overflow: hidden;
+    
+}
+
+.header{
+    flex:1;
+    background-color: black;
+    overflow: hidden;
+    position:fixed;
+    width: 260px;
+    justify-content: column;
+    height: 90vh;
+}
+.logo{
+    width: 150px;
+}
+.section-1{
+    color:white ! important;
+    background-color: black ! important;
+    text-decoration: none;
+    
+}
+.p-list{
+    padding-left: 20px;
+}
+
+#albumart-playlist {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    padding-bottom: 40px ;
+  
+}
+
+.right-main{
+    flex: 4;
+    
+}
+
+.pop-section{
+    background: linear-gradient(180deg, #90AEA7 0%, #000 120%);
+    height: 40%;
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.7rem;
+    margin-left: 250px;
+}
+
+.pop-description{
+    font-size: 0.75rem;
+     font-weight: 700;
+    line-height: 1rem;
+}
+
+
+
+
+
+.play-section{
+margin-left:250px;
+background: linear-gradient(180deg,rgb(31,37,35) 0%, #000 120%);
+padding: 1rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8.6rem;
+    margin-left:50px
+}
+
+.song-image{
+    display: flex;
+     align-content: center;
+     flex-direction: row;
+}
+.abc{
+  display:flex;
+  
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    padding: 40px 10px;
+    width: 100vw;
+    height: 5vh;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom:0px;
+   
+  }
+.songName{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    justify-content: space-between;
+  }
+  .songName>img{
+    width: 60px;
+    height:60px;
+  }
+  .songName>div>h2{
+    font-size: 18px;
+    color: whitesmoke;
+  }
+  .songName>div>p{
+    font-size: 15px;
+    color: whitesmoke;
+  }
+
+  .songs-list{
+    margin-left:260px;
+    
+  }
+
+  .small-gap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .song-description{
+    display: flex;
+    
+    justify-content:flex-start;
+  }
+  
+ 
+ 
+  /* <!-- ===========Bottom Middle============= */
+  .playControls{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+  }
+  .playControls>.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .control>img{
+    width: 25px;
+  }
+  
+  .bar{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: whitesmoke;
+    
+  }
+  .music-bar{
+    width: 400px;
+    
+  }
+
+  .bar-height{
+    margin-bottom:20px;
+  }
+  .musichov{
+   mix-blend-mode: screen;
+   transition: all 0.2s ease-in;
+  }
+  .musichov:hover{
+   box-shadow: 1px 1px 20px gray;
+   cursor: pointer;
+  }
+ 
+  /* <!-- ===========Bottom Right============= */
+  .volume{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  .vol{
+    width: 20px;
+    mix-blend-mode: screen;
+    transition: all 0.2s ease-in;
+  }
+ 
+  .black-spek{
+    width: 45px;
+  }
+  .vol:hover{
+   box-shadow: 1px 1px 10px gray;
+   cursor: pointer;
+  }
+  
+ 
+
+
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #album-playlist{
+        gap:0.7rem;
+    } 
+}
+
+/* Small screens */
+@media (min-width: 592px) and (max-width: 767px) {
+    .midup, .middown{
+        width: 12rem;
+    }
+ 
